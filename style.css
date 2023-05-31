@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+.Name-highlight{
+    font-size: 35px;
+    color: orange;
+}
+.Name-1-highlight{
+    font-size: 25px;
+    color: orange;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    margin: 5%;
+    padding-left: 7%;
+
+    
+}
+.half-width img{
+    width: 109%;
+  
+}
+.p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
