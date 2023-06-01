@@ -14,11 +14,11 @@ h2{
 }
 .Name-4-highlight{
     font-size: 35px;
-    color: orange;
+    color: rgb(251, 255, 7);
 }
 .Name-1-highlight{
     font-size: 25px;
-    color: orange;
+    color: rgb(251, 255, 7);
 
 }
 .Name-3-highlight{
@@ -44,11 +44,11 @@ h2{
     ;
   }
 
-.top-banner{ background-image: url("back2.jpg");
+.top-banner{ background-image: url("Ash.jpg");
     
     background-repeat: no-repeat;
-    height:auto;
-    width: auto;
+    height: auto;
+    width:100%;
     background-attachment: fixed;
 }
 section{
@@ -76,7 +76,7 @@ section{
     width: 109%;
 }
 .single-experience{
-    box-shadow: 13px 19px 49px gray;
+    box-shadow: 13px 19px 49px rgb(42, 120, 134);
     border-radius: 15px ;
     height: 50%;
     width: 30%;
@@ -84,7 +84,7 @@ section{
    
    padding: 35px;
    
-   border: 0.5px solid gray; 
+   border: 0.5px solid rgb(109, 181, 190); 
    
 }
 .ex-01{
@@ -92,7 +92,7 @@ section{
 }
 #full-stack{
     border-left: 5x solid  ;
-    border-image: linear-gradient( 180deg, black gray);
+    border-image: linear-gradient( 180deg, black rgb(50, 115, 131));
     border-image-slice: 1;
 }
 #baby{
@@ -100,6 +100,4 @@ section{
     border-image: linear-gradient( 180deg,rgb(0, 0, 0) rgb(17, 52, 150));
     border-image-slice: 1;
 }
-footer p{
-    text-align: center;
-}
+
