@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgb(0 0 0 / 5%);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+
+h2{
+    font-size: 25px;
+}
+.Name-4-highlight{
+    font-size: 35px;
+    color: rgb(251, 255, 7);
+}
+.Name-1-highlight{
+    font-size: 25px;
+    color: rgb(251, 255, 7);
+
+}
+.Name-3-highlight{
+    color: white;
+
+}
+
+.half-width{
+    width: 30%;
+    float: left;
+    margin: 5%;
+    padding-left: 7%;
+
+    
+}
+.half-width img{
+    width: 119%;
+  
+}
+.p{
+    text-align: justify;
+    text-justify: inter-word;
+    ;
+  }
+
+</style>
+
+
+
+</head>
+<body>
+    <section >
+        <div class="half-width">
+            <h1><span class="Name-3-highlight">Welcome To</span> </h1>
+            <h1><span class="Name-4-highlight">ASH Design House</span></h1>
+            <h6>A LITTLE ABOUT ME</h6>
+            <h3>Biography</h3>
+            <p class="ex-01"> <span class="Name-1-highlight">"Ash’s portfolio </span>  combines product design, user experience, and graphic design to create something entirely new. This Dribble-hosted portfolio has over 50 images, which could be overwhelming. But they're split into seven easy-to-understand projects.
+            This makes it a great graphic design portfolio example for designers who want to show long-term or complex projects.."</p>
+                <a class="link-button" target="_blank" href="https://www.instagram.com/ash_dude07/?igshid=ZDc4ODBmNjlmNQ%3D%3D">Hire ME</a>
+            </div>
+
+       <div class="half-width">
+        <img src="Profile.png" alt="">
+     </div>
+    </section>
+<video autoplay muted loop id="myVideo">
+  <source src="Ash graphics (1).mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+
+<section><div class="content">
+    <h2>Welcome To</h2>
+  <h1>Ash Graphics</h1>
+  <p class="ex-01"> <span class="Name-1-highlight">"Ash’s portfolio </span>  combines product design, user experience, and graphic design to create something entirely new. This Dribble-hosted portfolio has over 50 images, which could be overwhelming. But they're split into seven easy-to-understand projects.
+    This makes it a great graphic design portfolio example for designers who want to show long-term or complex projects.."</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+</section>
+
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ash protfolio</title>
+
+
+</head>
+
+<body class="top-banner">
+    <div class="">
+
+        
+            <video autoplay loop muted plays-inline class="myvideo"  >
+            <source style="width: 1900px;" src="Ash graphics (2).mp4" type="video/mp4">
+
+        </video>
+
+<div class="navbar">
+
+    <ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">SUPPORT</a></li>
+
+    </ul>
+</div>
+        <section>
+            <div class="half-width">
+                <h1><span class="Name-3-highlight">Welcome To</span> </h1>
+                <h1><span class="Name-4-highlight">ASH Design House</span></h1>
+                <h6>A LITTLE ABOUT ME</h6>
+                <h3>Biography</h3>
+                <p class="ex-01"> <span class="Name-1-highlight">"Ash’s portfolio </span> combines product design, user
+                    experience, and graphic design to create something entirely new. This Dribble-hosted portfolio has
+                    over 50 images, which could be overwhelming. But they're split into seven easy-to-understand
+                    projects.
+                    This makes it a great graphic design portfolio example for designers who want to show long-term or
+                    complex projects.."</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.instagram.com/ash_dude07/?igshid=ZDc4ODBmNjlmNQ%3D%3D">Hire ME</a>
+            </div>
+
+            <div class="half-width">
+                <img src="Profile.png" alt="">
+            </div>
+        </section>
+        <section class="Dream-area">
+            <div class="half-width">
+                <img src="2ndprofile.png">
+
+            </div>
+            <div class="half-width">
+                <h2><span class="Name-4-highlight"> BIG DREAM </span></h2>
+                <h6><span class="Name-3-highlight">Become World No.1 Graphics designer </span> </h6>
+                <p class="ex-01"> <span class="Name-1-highlight">"Creativity is a highfalutin </span> word for the work
+                    I have to do between now and Tuesday.A designer knows he has achieved perfection not when there is
+                    nothing left to add, but when there is nothing left to take away.The role of the designer is that of
+                    a good, thoughtful host anticipating the needs of his guests...” </p>
+                <a class="link-button" target="_blank" href="https://www.youtube.com/watch?v=FGaO0krcOE4">See
+                    Samples</a>
+
+
+            </div>
+
+
+        </section>
+        <section class="experience-area">
+            <div class="half-width single-experience">
+                <h2>Professional Graphics Designer </h2>
+                <h4><span class="Name-1-highlight">2023-Present | Pro level Graphics Designer</span> </h4>
+                <p class="ex-01">Successfully manage and coordinate graphic design projects from concept through
+                    completion. Work closely with clients to create vision, conceive designs, and consistently meet
+                    deadlines and requirements. Effectively build, motivate, and direct design and production teams.</p>
+
+            </div>
+            <div class="half-width single-experience">
+                <h2>Baby Graphics Designer </h2>
+                <h4><span class="Name-1-highlight">2021-2022 | Basic level Graphics Designer</span> </h4>
+
+                <p class="ex-01">Created new design themes for marketing and collateral materials. Collaborated with
+                    creative team to design and produce computer-generated artwork for marketing and promotional
+                    materials. Participated in production of print and promotional items for key clients under direction
+                    of Marketing Department.</p>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+                                                CSS
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+
+h2{
+    font-size: 25px;
+}
+.Name-4-highlight{
+    font-size: 35px;
+    color: rgb(251, 255, 7);
+}
+.Name-1-highlight{
+    font-size: 25px;
+    color: rgb(251, 255, 7);
+
+}
+.Name-3-highlight{
+    color: white;
+
+}
+
+.half-width{
+    width: 30%;
+    float: left;
+    margin: 5%;
+    padding-left: 7%;
+
+    
+}
+.half-width img{
+    width: 119%;
+  
+}
+.p{
+    text-align: justify;
+    text-justify: inter-word;
+    ;
+  }
+
+
+
+
+.myvideo
+
+
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+@media(min-aspect-ratio: 16/9){
+
+    .top-banner{
+        
+        width: 100%;
+        height: Auto;
+    }
+}
+section{
+    height:800px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 8px 12px;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-weight: bold;
+    
+
+}
+
+.experience-area{
+      width: 100%;
+      float: left;
+      padding: 79px;
+
+}
+.Dream-area img{
+    width: 109%;
+}
+.single-experience{
+    box-shadow: 11px 16px 45px rgb(128, 155, 160);
+    border-radius: 15px ;
+    height: 50%;
+    width: 30%;
+    float: left;
+   
+   padding: 35px;
+   
+   border: 0.5px solid rgb(98, 131, 136); 
+   
+}
+.ex-01{
+    text-align: justify;
+}
+#full-stack{
+    border-left: 5x solid  ;
+    border-image: linear-gradient( 180deg, black rgb(82, 139, 153));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 5x solid  ;
+    border-image: linear-gradient( 180deg,rgb(0, 0, 0) rgb(17, 52, 150));
+    border-image-slice: 1;
+}
+.navbar{
+    width: 90%;
+    padding:30px ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {list-style: none;
+    display: inline-block;
+    margin: 20px;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 120;
+    padding: 16px;
+    font-size: smaller;
+    
+}
+li a:hover{
+    background: rgb(128, 155, 160);
+    transition: 0.10s;
+   
+    
+}
+.navbar a:hover{
+    color:black;
+}
+
