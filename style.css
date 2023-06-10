@@ -126,6 +126,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .navbar ul li {list-style: none;
     display: inline-block;
@@ -145,9 +146,16 @@ section{
 li a:hover{
     background: rgb(128, 155, 160);
     transition: 0.10s;
-    border-radius: 35deg;
+   
     
 }
 .navbar a:hover{
     color:black;
 }
+/* .logo{
+    width: 220%;
+    float: left;
+    margin: 5%;
+    padding-left: 7%;
+
+} */
